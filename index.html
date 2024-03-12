@@ -24,24 +24,16 @@ body {font-family: "Lato", sans-serif}
     <a href="#data" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DATASET</a>
     <a href="#af" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ANNOTAION FRAMEWORK</a>
     <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
-   <!-- <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
-      </div>
-    </div>-->
-   <!-- <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">AIM</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+  <a href="#task" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TASK</a>
+  <a href="#data" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DATASET</a>
+  <a href="#af" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ANNOTAION FRAMEWORK</a>
+  <a href="#team" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEAM</a>
 </div>
 
 <!-- Page content -->
@@ -49,14 +41,14 @@ body {font-family: "Lato", sans-serif}
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="/w3images/la.jpg" style="width:100%">
+    <img src="1.png" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Los Angeles</h3>
-      <p><b>We had the best time playing at Venice Beach!</b></p>   
+      <!--<h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   -->
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="/w3images/ny.jpg" style="width:100%">
+    <img src="2.jpeg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>New York</h3>
       <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
@@ -82,15 +74,17 @@ body {font-family: "Lato", sans-serif}
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">TASK</h2>
       <p class="w3-opacity w3-center"><i>How work done in different tasks</i></p><br>
-      <p class="w3-justify">about <br> <br> task </p>
-
+      <p class="w3-justify">The field of Natural Language Processing, a subfield of Artificial Intelligence, is concerned with providing computers with the ability to comprehend, decipher and create Human Language. Its applications span a wide range of domains, from language translation and sentiment analysis to virtual assistants and chatbots. <br> <br> NLP tasks such as Language Identification (LID), Named Entity Recognition (NER), and Part-of-Speech (POS) Tagging are essential for comprehending and analyzing text data in various contexts:<br> <br><b>Language Identification (LID)</b> <br> <br>Language Identification is the process of determining the language of a given piece of text. This is essential for a variety of applications such as Multilingual Content Processing, Language Specific Analysis and Internationalization of Software. With an accurate LID, systems can automatically adapt to the input language of the user, enabling a smoother user experience and more effective communication across diverse linguistic contexts.<br>We can solve the sentence-level Language Identification by identifying the matrix language of the code-mixed text. <br><br> <b>Matrix Language Identification Example:</b><br><br>In our approach to Matrix language identification, we annotate each sentence with the language tag that corresponds to its grammatical structure. For instance:<br><b>Hindi Sentence:</b> "Are cricket se sanyas le liya kya viru aur social service suru"<br>Tagged Matrix Language: Hindi<br><b>English Sentence:</b> "I love playing lukka chuppi with my friends"<br>Tagged Matrix Language: English<br><br><b>Token-level language annotation:</b><br><br>In this annotation scheme, we annotate each token of the sentences to its corresponding language tag. The following example shows a token-level language annotation: <br><br>Sentence: Are&emsp; cricket &emsp;se&emsp; sanyas&emsp; le&emsp; liya &emsp;kya&emsp; viru&emsp; aur &emsp;social&emsp; service&emsp; suru <br>Lang tag:&emsp;&emsp;Hin&emsp;&emsp;&emsp;Eng&emsp;&emsp;&emsp; Hin &emsp;&emsp;Hin&emsp;&emsp; Hin&emsp; Hin &emsp;Hin&emsp; IN&emsp;&emsp; Hin &emsp;&emsp;&emsp;Eng&emsp;&emsp; &emsp;&emsp;Eng&emsp;&emsp;&emsp; &emsp;&emsp;Hin <br><br>Here, Hin, Eng and IN represent Hindi, English and Language independent tokens, respectively.<br><br><b>Named Entity Recognition (NER):</b>
+<br><br>Named Entity Recognition is a natural language processing task that identifies and categorizes named entities within text into predefined categories such as names of persons, organizations, locations, dates, and more. NER is essential to the extraction of information, search engines, question answering systems, social media monitoring and other applications where identifying specific entities is a prerequisite for understanding and analyzing.<br><br>In Named Entity Recognition we perform the token level entity by annotating named entities in the given sentence by using standard English named entities:
+<br>i. Person: Modi, Rahul<br>ii. Location: Himalaya, Ganga <br>iii. Organization: Infosys, IIT <br>iv. Date/Time: Today, tomorrow, kal, aaj <br>v. Geopolitical Entities: India, China, US, Bharat <br><br>In addition to the above, we aim to also tag social-media-based specific entities like: <br>I. Hashtags <br>II. Mentions <br>III. Emoji <br>The named entities are language-independent and require special care during the post-processing stages of any code-mixed task. <br><br><b>Part-of-Speech (POS) Tagging:</b><br><br> Part-of-Speech Tagging is the process of assigning grammatical categories (such as noun, verb, adjective, etc.) to words in a text based on their context and definition. POS tagging is a fundamental task in natural language processing, serving as the foundation for many higher-level language understanding tasks. It facilitates tasks such as text analysis, sentiment analysis, and machine translation by allowing machines to understand the syntactic structure of sentences.<br><br>In POS tagging we annotate the given tags. Overall, the plan is to include language-specific POS tags. For example, in a Hinglish sentence, if the token belongs to Hindi, the corresponding Hindi POS tag will be assigned, and if the token belongs to English, the corresponding English POS tag will be assigned. <br></p>
+<br><br>
       </div>
     </div>
     
      <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="data">
     <h2 class="w3-wide">DATASET</h2>
     <p class="w3-opacity"><i>About Dataset</i></p>
-    <p class="w3-justify">about data </p>
+    <p class="w3-justify">This work showcases and highlights a dataset comprising more than 10,000 instances of code-mixed Hindi-English text. It has been employed explicitly for token-level language identification, allowing us to determine the language of each word within the given text. The most significant dataset with 10,000 instances in English and Hindi till now. The availability of this specific dataset sets it apart, representing a substantial asset for research and applications in various domains.Below, you'll find details about the dataset columns and how to access it.<br><br>Total Sentences: 10100<br>Predicted Tags: <br>Annotated by Manually using given framework <br><br>To access the dataset, please click the link below:<br></p>
 
   </div>
 
@@ -105,58 +99,13 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 
-  <!-- Ticket Modal 
-  <div id="ticketModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('ticketModal').style.display='none'" 
-       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
-      </header>-->
-      <!-- <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-      </div>  -->
     </div>
   </div>
 
-  <!-- The Contact Section 
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Any Query? Drop a note!</i></p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> IIT - Gandhinagar<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: <br>
-      </div>
-      <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
-      </div>
-    </div>
-  </div>   -->
-  
-<!-- End Page Content -->
 </div>
   <div class="w3-container w3-content w3-center w3-padding-64" id="team">
     <h4><b>TEAM</b></h4>
-    <img src="1.png" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+    <img src="" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
     <div class="w3-content w3-justify" style="max-width:600px">
       <h4>Prof. Dr. Mayank Singh </h4>
       <p>Dr. Mayank Singh has been working on both of these fields of research for the past eight years. His current projects, "Gandhipedia" and "IE from tables and charts" are majorly based on these two fields of research. Dr. Mayank Singh has also taught NLP for the past three years as a postgraduate course at the Indian Institute of Technology, Gandhinagar. He has offered several national and international invited talks on NLP and ML. In addition, His majority of publications are in NLP/ML venues. His several web portals are available online. Among them, NLPExplorer (http://nlpexplorer.org/) is very popular among the NLP research community and has been accessed by more than 7.3k unique users having a close to 9.7k sessions. </p>
@@ -165,26 +114,27 @@ body {font-family: "Lato", sans-serif}
       </div>
           <div class="w3-row w3-padding-32">
       <div class="w3-third">
-        <p>Name</p>
         <img src="a.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Rajvee Sheth</p>   
+        <p>JRF</p>
       </div>
       <div class="w3-third">
-        <p>Name</p>
         <img src="b.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Rakesh</p>
+        <p>M.Tech</p>
       </div>
       <div class="w3-third">
-        <p>Name</p>
         <img src="c.jpg" class="w3-round" alt="Random Name" style="width:60%">
+        <p>Heena Prajapati</p>
+        <p>JRF</p>
       </div>
     </div>
       </div>
-<!-- Image of location/map -->
-<!--<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">-->
 
 <!-- Footer -->
 <div class="w3-black">
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i href="https://www.linkedin.com/company/lingo-labs-iitgn/" class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
   <i class="fa fa-snapchat w3-hover-opacity"></i>
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
@@ -222,13 +172,6 @@ function myFunction() {
   }
 }
 
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 </script>
 
 </body>
